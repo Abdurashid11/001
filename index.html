@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Pepsi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index1.html">
+  <link rel="stylesheet" href="index2.html">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="pepsi" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <video autoplay muted loop class="video-bg">
+      <source src="video/Дизайн без названия — копия.mp4" type="video/mp4" style="width: 5px;">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+  
+
+<header>
+  <div><strong>PEPSI</strong></div>
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#products">Продукты</a>
+    <a href="#video">Видео</a>
+    <a href="#contact">Контакты</a>
+    <button id="01" class="theme-toggle" onclick="toggleTheme()">red</button>
+    <button id="02" class="theme-toggle1" onclick="len()">blue</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1 id="pepsi01"></h1>
+</section>
+
+<div class="div2">
+  <img data-aos="zoom-in" data-aos-duration="1000" src="https://1000logos.net/wp-content/uploads/2017/05/Pepsi-logo.png" alt="" class="img2">
+  <img data-aos="zoom-in" data-aos-duration="1000" src="https://1000logos.net/wp-content/uploads/2017/05/Pepsi-logo.png" alt="" class="img1">
+</div>
+
+
+
+<section class="section" id="about">
+  <h2>О Pepsi</h2>
+  <p>Pepsi — это не просто напиток, это стиль жизни. Уже более 100 лет мы вдохновляем людей по всему миру, предлагая яркий и освежающий вкус.</p>
+</section>
+
+<section class="section" id="products">
+  <h2>Наши продукты</h2>
+  <swiper-container
+    class="swiper-container"
+    autoplay="true"
+    autoplay-delay="2000"
+    loop="true"
+    space-between="40"
+    slides-per-view="1"
+  >
+    <swiper-slide data-aos="zoom-out-up">
+      <div class="products">
+        <img src="img/Pepsi-PNG-Image-Free-Download.png" alt="Pepsi Classic" class="pepsi1" style="height: 360px;">
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="img/Pepsi Zero.png" alt="Pepsi Zero" class="pepsi2">
+    </swiper-slide>
+    <swiper-slide>
+      <img src="img/Diet Pepsi.png" alt="Diet Pepsi" class="pepsi3">
+    </swiper-slide>
+  </swiper-container>
+
+   <a href="index2.html"><button class="vse">ВСЕ</button></a>
+</section>
+
+<section class="section" id="video">
+  <h2>Реклама Pepsi</h2>
+  <div class="video">
+    <iframe data-aos="flip-left" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" width="560" height="315" src="https://www.youtube.com/embed/YLFZkMML-vQ?si=jh_caulTFYe8hDbP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+</section>
+
+<section data-aos="zoom-in" data-aos-duration="1000" class="section">
+  <h2>Подпишись на новости</h2>
+  <div class="subscribe">
+    <input type="email" placeholder="Ваш email">
+    <button onclick="subscribe()">Подписаться</button>
+  </div>
+</section>
+
+<section>
+  <div>
+     <a href="index3.html"><button class="button3">chart.js</button></a>
+  </div>
+</section>
+
+<footer id="contact">
+  <h3>Контакты</h3>
+  <p>Email: info@pepsi.com</p>
+  <p>Телефон: +7 (800) 555-35-35</p>
+  <p>&copy; 2025 Pepsi. Все права защищены.</p>
+   <a href="https://abdurashid11.github.io/sam-2/"><button class="button2"><img src="img/arrow_forward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png" alt=""></button></a>
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      const preloader = document.getElementById("preloader");
+      preloader.classList.add("hidden");
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 1000);
+    }, 5000);
+  });
+</script>
+
+
+  <script src="script.js"></script>
+  
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script>
+    AOS.init();
+  </script>
+</body>
+</html>

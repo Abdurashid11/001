@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background: #002b5c;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.theme-toggle {
+  background: red;
+  color: whitesmoke;
+  border: 2px solid #002b5c;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
+
+.theme-toggle1{
+  background: rgb(57, 57, 255);
+  border: 2px solid #002b5c;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
+
+body{
+  background: #000000;
+  font-family: 'Oswald', sans-serif;
+}
+
+table{
+  margin-top: 20px;
+}
+
+th{
+  padding: 0px 0px 0px 40px;
+}
+
+.th1{
+  padding: 0px 0px 0px 545px;
+}
+
+td{
+  border: 2px solid black;
+  transition: all 0.4s ease; 
+  transform-origin: center; 
+  cursor: pointer; 
+  filter: blur(3px);
+}
+
+td:hover{
+  background-color: rgba(0, 0, 255, 0.63);
+  border-radius: 12px 50px 12px 50px; 
+  box-shadow: 0 0 25px 10px rgba(0, 0, 255, 0.5);
+  transform: scale(1.09) rotate(2deg); 
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  border: 2px solid rgba(0, 0, 255, 0.7);
+  filter: blur(0px);
+  
+}
+
+td img{
+  /* -webkit-box-reflect: below 0px linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3)); */
+}
+
+
+.img5{
+  margin: 10px 30px 10px 30px;
+}
+
+.img6{
+  margin: 10px 30px 10px 30px;
+}
+
+.img7{
+  margin: 10px 30px 10px 30px;
+}
+
+.img8{
+  margin: 10px 30px 10px 30px;
+}
+
+.img9{
+  margin: 10px 30px 10px 30px;
+}
+
+.img10{
+  margin: 10px 30px 10px 30px;
+}
+
+.img11{
+  margin: 10px 30px 10px 30px;
+}
+
+.img12{
+  margin: 10px 30px 10px 30px;
+}
+
+.img13{
+  margin: 10px 30px 10px 30px;
+}
+
+.img14{
+  margin: 10px 30px 10px 30px;
+}
+
+.img15{
+  margin: 10px 30px 10px 30px;
+}
+
+.bg-video {
+  width: 300px;
+  transition: filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.bg-video:hover {
+  filter: grayscale(0%);
+}
+
